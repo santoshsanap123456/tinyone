@@ -1,0 +1,150 @@
+.background{
+	background-color: var(--color-pri);
+	padding: 55px 0 105px;
+}
+
+.logo{
+	display: inline-block;
+	padding: 0 15px;
+}
+
+
+.navbar ul{
+	display:inline-block;
+}
+
+.navbar ul li{
+	display:inline-block;
+	margin: 0 18px;
+}
+
+.navbar ul li a{
+	display:inline-block;
+	font-size: 22px;
+	font-weight: bold;
+	color: var(--color-sec);
+	height: 47px;
+	line-height: 47px;
+	text-transform: capitalize;
+	padding: 0 18px;
+	transition: all .4s ease-in-out;
+}
+
+.navbar ul li a:is(:hover, :focus, :active){
+	background-color: var(--color-sec);
+	color: var(--color-pri);
+	border-radius: 5px;
+	transform: scale(0.8);
+}
+
+.header{
+	margin-bottom:65px;
+}
+
+
+.inspire{
+	margin-top: 65px;
+	padding-right: 90px; 
+}
+
+.brand-i li{
+	display:inline;
+}
+
+.brand-i li a{
+	display:inline;
+	margin-right: 35px;
+}
+
+.brand-i i{
+	font-size: 40px;
+	color: var(--color-sec);
+	transition: all .6s ease-in-out;
+}
+
+.brand-i li:hover i{
+	transform: scale(.8) rotate(360deg);
+}
+
+
+.features{
+	padding: 115px 0 165px;
+}
+
+.mb-70px{
+	margin-bottom: 70px;
+}
+
+.thumbnail i {
+	font-size: 40px;
+}
+
+.footer{
+	background-color: var(--color-sec);
+	padding:100px 0 140px;
+}
+
+
+.footer .pri-heading{
+	color: var(--color-pri);
+}
+
+.footer .sec-heading{
+	color: var(--text-ter);
+}
+
+.updateEmail{
+	height: 50px;
+	width: calc(100% - 152px);
+	outline: none;
+	border-radius: 6px;
+	padding-left: 15px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.updateEmail::placeholder{
+	color: var(--text-ter);
+}
+
+.emailUpdateBtn{
+	height: 50px;
+	width: 127px;
+	margin-left: 20px;
+	background-color: var(--color-pri);
+	color: var(--color-sec);
+	font-size: 16px;
+	font-weight: 600;
+	border: 2px solid var(--color-pri);
+	border-radius: 6px;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+.emailUpdateBtn:is(:hover, :active, :focus){
+	background-color: var(--color-sec);
+	color: var(--color-pri);
+	transform: scale(0.9);
+}
+
+.footer .form-group{
+	margin: 35px 0 80px;
+}
+
+.footer .brand-i i{
+	color: var(--color-pri);
+}
+
+.footerLinks li{
+	font-style: normal;
+	color: var(--color-white);
+}
+
+.footerLinks li a:is(:link, :visited){
+	color: var(--color-white);
+	text-transform: capitalize;
+}
+
+.footerLinks li a:is(:hover, :focus, :active){
+	color: var(--color-pri);
+}
